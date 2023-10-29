@@ -1,18 +1,23 @@
-<template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
-</template>
+<script setup>
+import MainLayout from '../components/MainLayout.vue';
+import HeroBanner from '../components/HeroBanner.vue';
+import ProjectGallery from '../components/ProjectGallery.vue';
+import TechStacks from '../components/TechStacks.vue';
 
-<script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
-export default {
-  name: 'HomeView',
-  components: {
-    HelloWorld
-  }
-}
+// Page Title of Views
+const pageTitle = 'Home'
 </script>
+
+<template>
+  <MainLayout :pageTitle="pageTitle">
+    
+    <!-- Hero Banner Section -->
+    <HeroBanner />
+
+    <!-- Project Gallery -->
+    <ProjectGallery />
+
+    <!-- Tech Stacks -->
+    <TechStacks />
+  </MainLayout>
+</template>

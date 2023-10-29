@@ -2,13 +2,13 @@
 import MainLayout from '../components/MainLayout.vue';
 
 // Page Title of Views
-const pageTitle = 'About'
+const pageTitle = 'Projects'
 </script>
 
 <template>
   <MainLayout :pageTitle="pageTitle">
     <section>
-      Add Content About You
+      Add Display Projects Content
     </section>
   </MainLayout>
 </template>
