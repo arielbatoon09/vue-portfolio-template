@@ -1,11 +1,16 @@
 # vue-portfolio-template
 
-## Step 1: Project setup
+## Step 1: Project Clone
+```
+git clone https://github.com/arielbatoon09/vue-portfolio-template.git (Do it in Git or CMD)
+```
+
+## Step 2: Project setup
 ```
 npm install
 ```
 
-### Step 2: Compiles and hot-reloads for development
+### Step 3: Compiles and hot-reloads for development
 ```
 npm run serve
 ```
