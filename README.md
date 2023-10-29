@@ -1,24 +1,21 @@
 # vue-portfolio-template
 
-## Project setup
+## Step 1: Project setup
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Step 2: Compiles and hot-reloads for development
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### If you want to deploy your app (Optional)
 ```
 npm run build
 ```
 
-### Lints and fixes files
+### Lints and fixes files (Optional)
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
